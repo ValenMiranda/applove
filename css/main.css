@@ -121,23 +121,13 @@ footer{
   padding-top: 7px;
 }
 
-#work{
-  background-color: white;
-  background-image: url('../assets/images/hero.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 80%;
-  height: 554px;
-  text-align: center;
-  margin-top: 80px;
-}
-
 .text-work{
+  text-align: center;
   font-size: 35px;
   letter-spacing: 2px;
 }
 
-/*MODAL
+/* MODAL por Blanca */
 
 #box-services-modal{
   background-color: rgba(240,30,80,0.85);
@@ -173,14 +163,50 @@ footer{
   position: absolute;
   top: 20px;
   right: 20px;
+  width: 100px;
+  cursor: pointer;
 }
 
 #box-services-modal .close img{
   width: 50px;
 }
 
+/* Modal Galeria de Work */
+
+#box-work-modal{
+  background-color: #5d8c99;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(135,191,117,0.85)
+}
+
+#box-work-modal .modal-work{
+  width: 60%;
+  margin: 0 auto;
+  text-align:center;
+  padding: 100px;
+}
+
+#box-work-modal .close{
+  position: absolute;
+  top: 110px;
+  right: 20px;
+  width: 100px;
+  cursor: pointer;
+  margin-right: 300px;
+}
+
+#box-work-modal .close img{
+  width: 20px;
+}
+
+.imagen-galeria{
+  cursor: pointer;
+}
+
 .hide{
   display: none;
 }
-*/
-
